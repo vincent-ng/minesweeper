@@ -1,0 +1,12 @@
+{
+	"name": "minesweeper",
+	"version": "0.0.1",
+	"brickyard-module-type": "plan",
+	"private": true,
+	"scripts": {
+	  "start": "node index.js"
+	},
+	"main": "index.js",
+	"license": "ISC"
+  }
+  

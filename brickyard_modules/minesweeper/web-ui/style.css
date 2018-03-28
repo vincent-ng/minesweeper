@@ -1,0 +1,184 @@
+.menu {
+    margin: 15px;
+    text-align: center;
+}
+
+.board {
+    margin: auto;
+}
+
+.col-4 {
+    width: 33.3%;
+    float: left;
+}
+
+/* board frame */
+.board-frame-outer {
+    float: left;
+    border: 2px #bdbdbd outset;
+    border-top: 2px #ffffff outset;
+    border-left: 2px #ffffff outset;
+}
+.board-frame-middle {
+    float: left;
+    border: 5px #bdbdbd solid;
+}
+.board-frame-inner {
+    float: left;
+    border: 2px #ffffff inset;
+    border-top: 2px #bdbdbd inset;
+    border-left: 2px #bdbdbd inset;
+}
+.board-frame-outer:first-child {
+    border-bottom: none;
+}
+.board-frame-outer:first-child .board-frame-middle {
+    border-bottom: none;
+}
+.board-frame-outer:last-child {
+    border-top: none;
+}
+
+/* tool bar */
+.tool-bar {
+    background-color: #bdbdbd;
+    height: 33px;
+}
+
+.tool-bar .face-button {
+    background-image: url(sprite100.gif);
+    width: 26px;
+    height: 26px;
+    margin: auto;
+    margin-top: 3px;
+}
+.tool-bar .face-button {
+    background-position: 0px -55px;
+}
+.tool-bar .face-button:active {
+    background-position: -26px -55px !important;
+}
+.tool-bar .face-button.oops {
+    background-position: -52px -55px;
+}
+.tool-bar .face-button.gameover {
+    background-position: -78px -55px;
+}
+.tool-bar .face-button.win {
+    background-position: -104px -55px;
+}
+
+.tool-bar .mine .counter {
+    background-image: url(sprite100.gif);
+    width: 13px;
+    height: 23px;
+    float: left;
+    margin-top: 5px;
+}
+.tool-bar .mine .counter:first-child {
+    margin-left: 5px;
+}
+.tool-bar .time .counter {
+    background-image: url(sprite100.gif);
+    width: 13px;
+    height: 23px;
+    float: right;
+    margin-top: 5px;
+}
+.tool-bar .time .counter:first-child {
+    margin-right: 5px;
+}
+
+.counter#d0 {
+    background-position: 0 0;
+}
+.counter#d1 {
+    background-position: -13px 0;
+}
+.counter#d2 {
+    background-position: -26px 0;
+}
+.counter#d3 {
+    background-position: -39px 0;
+}
+.counter#d4 {
+    background-position: -52px 0;
+}
+.counter#d5 {
+    background-position: -65px 0;
+}
+.counter#d6 {
+    background-position: -78px 0;
+}
+.counter#d7 {
+    background-position: -91px 0;
+}
+.counter#d8 {
+    background-position: -104px 0;
+}
+.counter#d9 {
+    background-position: -117px 0;
+}
+
+/* grid */
+.grid {
+	display: block;
+}
+
+.cell {
+	background-image: url(sprite100.gif);
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+
+.cell.covered {
+    background-position: 0 -39px;
+}
+.press .cell.covered.mouseover {
+    background-position: 0 -23px;
+}
+
+.cell.uncovered0 {
+    background-position: 0 -23px;
+}
+.cell.uncovered1 {
+    background-position: -16px -23px;
+}
+.cell.uncovered2 {
+    background-position: -32px -23px;
+}
+.cell.uncovered3 {
+    background-position: -48px -23px;
+}
+.cell.uncovered4 {
+    background-position: -64px -23px;
+}
+.cell.uncovered5 {
+    background-position: -80px -23px;
+}
+.cell.uncovered6 {
+    background-position: -96px -23px;
+}
+.cell.uncovered7 {
+    background-position: -112px -23px;
+}
+.cell.uncovered8 {
+    background-position: -16px -23px;
+}
+
+.cell.flag {
+    background-position: -16px -39px;
+}
+
+.cell.flag.error {
+    background-position: -48px -39px;
+}
+
+.cell.mine {
+	background-position: -64px -39px;
+}
+
+.cell.mine.error {
+	background-position: -32px -39px;
+}

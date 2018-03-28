@@ -1,0 +1,15 @@
+{
+	"name": "minesweeper-core",
+	"version": "1.0.0",
+	"brickyard-module-type": "frontend",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"lodash": "^4.17.5"
+	}
+}
