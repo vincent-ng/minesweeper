@@ -7,7 +7,7 @@ A minesweeper Game simulates of windows minesweeper, implemented in Javascript E
 
 ## Usage
 
-[Play Online](https://github.com/vincentngthu/minesweeper)
+[Play Online](https://vincentngthu.github.io/minesweeper/)
 
 ## Build
 

@@ -86,6 +86,9 @@ function restart(height, width, minesCount) {
 	gridElm.width(grid.width * 16)
 	toolElm.width(grid.width * 16)
 	gridElm.mousedown((e) => {
+		if (grid.isEnd) {
+			return
+		}
 		if (e.which === 1) {
 			gridElm.addClass('press')
 			faceBtn.addClass('oops')
